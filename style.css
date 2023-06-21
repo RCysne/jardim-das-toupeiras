@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./assets/fundo.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#toupeiras {
+    padding-top: 15rem;
+    display: grid;
+    grid-template-areas: 
+    "A B C D"
+    "E F G H"
+    "I J K L"
+    "M N O P";
+
+    justify-content: space-around;
+    align-content: center;
+}
+
+.toupeiras:nth-child(1) {
+    grid-area: A;
+    animation-name: topdown;
+    animation-duration: 2s;
+    animation-delay: 3s;
+}
+
+.toupeiras:nth-child(2) {
+    grid-area: B;
+}
+
+.toupeiras:nth-child(3) {
+    grid-area: C;
+}
+
+.toupeiras:nth-child(4) {
+    grid-area: D;
+}
+
+.toupeiras:nth-child(5) {
+    grid-area: E;
+}
+
+.toupeiras:nth-child(6) {
+    grid-area: F;
+    animation-name: topdown;
+    animation-duration: 2s;
+    animation-delay: 7s;
+}
+
+.toupeiras:nth-child(7) {
+    grid-area: G;
+}
+
+.toupeiras:nth-child(8) {
+    grid-area: H;
+    animation-name: topdown;
+    animation-duration: 2s;
+    animation-delay: 5s;
+}
+
+.toupeiras:nth-child(9) {
+    grid-area: I;
+    animation-name: topdown;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+
+.toupeiras:nth-child(10) {
+    grid-area: J;
+    animation-name: topdown;
+    animation-duration: 2s;
+    animation-delay: 8s;
+}
+
+.toupeiras:nth-child(11) {
+    grid-area: K;
+    animation-name: topdown;
+    animation-duration: 2s;
+}
+
+.toupeiras:nth-child(12) {
+    grid-area: L;
+}
+
+.toupeiras:nth-child(13) {
+    grid-area: M;
+    animation-name: topdown;
+    animation-duration: 2s;
+    animation-delay: 15s;
+}
+
+
+.toupeiras:nth-child(14) {
+    grid-area: N;
+    animation-name: topdown;
+    animation-duration: 2s;
+    animation-delay: 17s;
+}
+
+.toupeiras:nth-child(15) {
+    grid-area: O;
+}
+
+.toupeiras:nth-child(16) {
+    grid-area: P;
+    animation-name: topdown;
+    animation-duration: 2s;
+    animation-delay: 10s;
+}
+
+
+@keyframes topdown {
+    0% {
+        background-image: url('./assets/toupeira6.svg');
+    }
+
+    16% {
+        background-image: url('./assets/toupeira1.svg');
+        z-index: 100;
+    }
+
+    32% {
+        background-image: url('./assets/toupeira2.svg');
+        z-index: 100;
+    }
+
+    48% {
+        background-image: url('./assets/toupeira3.svg');
+        z-index: 100;
+    }
+
+    64% {
+        background-image: url('./assets/toupeira4.svg');
+        z-index: 100;
+    }
+
+    80% {
+        background-image: url('./assets/toupeira5.svg');
+        z-index: 100;
+    }
+
+    100% {
+        background-image: url('./assets/toupeira6.svg');
+    }
+}
