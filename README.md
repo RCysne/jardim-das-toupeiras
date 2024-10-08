@@ -34,4 +34,6 @@ Ao abrir a aplicação, você verá uma imagem de fundo representando um jardim,
 Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues, fazer forks ou enviar pull requests com melhorias e sugestões.
 
-![]()
+![toupeira-01](https://github.com/RCysne/jardim-das-toupeiras/blob/main/assets/toupeira-01.png)
+![toupeira-02](https://github.com/RCysne/jardim-das-toupeiras/blob/main/assets/toupeira-02.png)
+![toupeira-03](https://github.com/RCysne/jardim-das-toupeiras/blob/main/assets/toupeira-03.png)
