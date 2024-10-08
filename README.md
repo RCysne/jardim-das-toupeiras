@@ -16,7 +16,7 @@ Como Utilizar
 Clone este repositório:
 bash
 Copiar código
-git clone https://github.com/seu-usuario/jardim-das-toupeiras.git
+git clone https://github.com/RCysne/jardim-das-toupeiras.git
 Abra o arquivo index.html no seu navegador.
 
 As toupeiras aparecerão e desaparecerão nos buracos distribuídos no jardim.
@@ -33,3 +33,5 @@ Ao abrir a aplicação, você verá uma imagem de fundo representando um jardim,
 
 Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues, fazer forks ou enviar pull requests com melhorias e sugestões.
+
+![]()
